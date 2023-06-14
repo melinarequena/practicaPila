@@ -3,4 +3,4 @@ project(practicaPila C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(practicaPila main.c)
+add_executable(practicaPila main.c Pila.c Pila.h)
