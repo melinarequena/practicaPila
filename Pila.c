@@ -47,5 +47,8 @@ void printear(Stack *stack) {
 }
 
 void pop(Stack *stack) {
+    Node * aux = stack->top;
     stack->top = stack->top->next;
+    free(aux);
+ 
 }
